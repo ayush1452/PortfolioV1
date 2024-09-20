@@ -1,0 +1,115 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+/*  CSS Variables */
+
+@import url(./partial/_variable.css);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+
+
+.col-right p {
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+}
+
+.container
+{
+    min-height: 100vh;
+	width: 100%;	
+	
+}
+
+
+/*------------------ header area ---------------*/
+
+
+
+ 
+.header_area .main_menu .navbar .navbar_brand
+{
+    padding: 0 2rem 0 5rem ;
+}
+
+
+/*
+
+.header_area .main_menu .navbar 
+{
+    padding: 1rem 20rem;
+}
+
+*/
+
+
+
+.header_area .main_menu .nav-item .nav-link 
+{
+    font-family: 'Roboto',cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color:black;
+
+}
+
+
+
+.header_area .main_menu .navbar-nav a:hover
+{
+background: blueviolet;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ background-clip: text;
+}
+
+.header_area .main_menu .navbar
+{
+   text-align: center;
+}
+
+/*  end navigation  */
+
+/* --- Start of logo size ----*/
+
+.logo img
+{
+    margin-top: -16px;    
+    height: 80px;
+    width: 80px;
+}
+
+/* -- end of logo design ---*/
+
+.top-logo
+{
+    font-size: 34px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    padding-left: 10px;
+
+}
+
+.logo-design
+{
+    color: #854fee; 
+    font-size: 44px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
